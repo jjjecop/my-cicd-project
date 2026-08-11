@@ -61,4 +61,4 @@ def delete_todo(todo_id):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=False)
+    app.run(host="0.0.0.0", port=5000, debug=False)  # nosec B104 -- ต้องใช้ 0.0.0.0 เพื่อให้เข้าถึงแอปจากนอก container ได้
