@@ -20,7 +20,7 @@ jobs:
                     python-version: "3.11"
 
             -   name: install Bandit
-                run: pip Install Bandit
+                run: pip install Bandit
 
             -   name: Run Bandit scan
                 run: bandit -r app/ -f screen
